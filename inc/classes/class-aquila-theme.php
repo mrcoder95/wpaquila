@@ -35,5 +35,9 @@ class AQUILA_THEME {
             "flex-height" => true,
             "flex-width" => true
         ]);
+        add_theme_support('custom-background', [
+            'default-color' => '#fff',
+            'default-image' => ''
+        ]);
     }
 }
