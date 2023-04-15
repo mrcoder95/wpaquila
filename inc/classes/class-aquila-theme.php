@@ -15,10 +15,13 @@ class AQUILA_THEME {
 
     protected function __construct() {
         // Load the other classes
+        Assets::get_instance();
         $this->set_hooks();
     }
 
     protected function set_hooks() {
-        // Actions and Filters
+        /*
+         * Filters
+         */
     }
 }
